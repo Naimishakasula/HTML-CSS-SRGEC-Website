@@ -1,0 +1,933 @@
+body{
+    background-color:white;
+    text-decoration: none;
+
+}
+
+
+.skip-link {
+    
+    font-size: 22px;
+    color:white;
+}
+.skip-link:hover{
+    color: rgb(205, 205, 62);
+}
+
+
+
+.align{
+    display:flex;
+    
+    justify-content: space-evenly;
+    background-color:rgb(13, 49, 86);
+    font-size: 30px;
+    overflow-x: visible;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    text-decoration: none;
+}
+
+
+
+.align li a:hover {
+    color: yellow;
+}
+
+.align a{
+    color:white;
+}
+
+
+
+
+
+
+
+.srcimag{
+    background-color:rgb(5, 72, 140);
+    
+
+}
+.srgec{
+    background-color:rgb(5, 72, 140);
+}
+
+    
+
+
+
+
+
+h2{
+    color:rgb(0, 110, 255);
+    text-align: center;
+    
+}
+
+
+
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:0px;
+    justify-items: center;
+
+}
+
+
+
+
+.srgecwebsite{
+    background-image: url(images/college.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    
+    
+    width: 100%;
+    min-height:100vh;
+    height:auto;
+
+    
+    font-size: 25px;
+    
+    
+}
+.srgecwebsite a:hover{
+    color:#1b4f9b;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+
+
+.owner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.container p{
+    font-size: 25px;
+}
+.container h2{
+    text-align: left;
+    font-size: 35px;
+}
+.container h2:hover{
+    color:yellow;
+}
+
+
+
+
+
+
+.button{
+    
+    width: 150px;
+    height: 25px;
+}
+
+.principal p{
+    font-size: 25px;
+
+    text-align: left;
+}
+.principal h1{
+    text-align: left;
+}
+
+.chairman p{
+    font-size: 25px;
+
+}
+
+.chairman{
+    border: 2px solid black;
+}
+
+.owner{
+    border:2px solid black;
+    
+}
+.container{
+    border:2px solid black;
+}
+
+
+.Vallurupalli {
+    border:2px solid black;
+
+}
+.Vallurupalli p{
+    font-size: 25px;
+}
+
+
+.principal{
+    border:2px solid black;
+}
+.principal img{
+    display:block;
+    margin:auto;
+}
+.principal h2{
+    padding-right:25px ;
+}
+.svm{
+    border: 2px solid black;
+    
+}
+.vision img{
+    width:150px;
+}
+
+
+.mission p{
+    padding-left: 35px;
+}
+
+.mission img{
+    padding-left: 35px;
+}
+.mission h2{
+    padding-left: 35px;
+}
+.skip-link{
+    color:black;
+}
+.latest-news{
+    background-color: yellow;
+}
+
+
+
+.srgec{
+    padding-top: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.satyanarayana p{
+    font-size: 25px;
+    padding-left: 35px;
+    text-align: left;
+}  
+.satyanarayana img{
+    display:block;
+    margin:auto;
+    
+}
+.satyanarayana h2{
+    padding-right: 35px;
+    color:rgb(5, 72, 140);
+}
+.vision{
+    font-size:22px;
+
+}
+.vision p{
+    padding-left: 35px;
+}
+.vision img{
+    background-image: transparent;
+}
+.vision h2:hover{
+    color:yellow;
+}
+.mission h2:hover{
+    color:yellow;
+}
+.mission{
+    font-size: 22px;
+}
+.skip-link{
+    padding-right: 25px;
+}
+.satyanarayana h1{
+    padding-left: 25px;
+}
+
+.principal h2{
+    padding-right: 125px;
+}
+.mission img{
+    width:150px;
+    
+}
+.power{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.Vallurupalli button{
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.Vallurupalli button:hover{
+    background-color: green;
+}
+.theory{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-items:center;
+}
+.theory div:nth-child(odd){
+    justify-items: center;
+    width:fit-content;
+    text-align: center;
+    padding: 15px;
+    margin:none;
+    
+}
+
+.theory h1{
+    font-size: 22px;
+}
+.card{
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+    text-align: center;
+
+}
+.card h1{
+    color:rgb(88, 51, 51);
+    background-color:#f4c430;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card button{
+    text-decoration: none;
+    background-color: pink;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.card button:hover{
+    color:green;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+
+.galleri{
+    padding-top: 35px;
+    background-color: #5178b4;
+    
+}
+.galleri h1{
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+
+.side-menu{
+    position:fixed;
+    
+    top:60%;
+
+    transform: translateY(50%);
+    z-index: 999;
+}
+
+.side-menu .item{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    margin: -20px 0;
+    background: #0b6b3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 25px 25px 0;
+    overflow:hidden;
+    transition: width 0.4s;
+    font-size: 25px;
+}
+
+.side-menu .item:nth-child(2){
+    background: #f4c430;
+}
+
+.side-menu .item:nth-child(3){
+    background: #1b4f9b;
+}
+
+.side-menu .icon{
+    min-width: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.side-menu .text{
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity .3s;
+    padding-right: 20px;
+}
+
+.side-menu .item:hover{
+    width: 180px;
+}
+
+.side-menu .item:hover .text{
+    opacity: 1;
+}
+.latest-news{
+    font-size: 25px;
+}
+.applynow{
+    background-color:orange;
+    width:100%;
+    padding:50px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff
+
+}
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:10px;
+    
+}
+.text p{
+    font-size: 24px;
+}
+.admission{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+@media screen and (max-width:768px){
+
+.admission{
+    flex-direction:column;
+}
+footer{
+    height:auto;
+    padding:30px;
+}
+
+}
+/* Responsive Design */
+
+@media screen and (max-width:768px){
+
+    .align{
+        flex-direction: column;
+        align-items: center;
+        font-size:20px;
+    }
+
+    .second,
+    .owner,
+    .container,
+    .theory{
+        grid-template-columns:1fr;
+    }
+
+    .Vallurupalli img,
+    .principal img,
+    .satyanarayana img{
+        width:90%;
+        padding-left:0;
+        display:block;
+        margin:auto;
+    }
+
+    .container h2,
+    .container p,
+    .principal p,
+    .chairman p,
+    .Vallurupalli p,
+    .satyanarayana p,
+    .vision,
+    .mission{
+        font-size:18px;
+        text-align:center;
+        padding:10px;
+    }
+
+    .text h1{
+        font-size:30px;
+    }
+
+    .text p{
+        font-size:18px;
+    }
+
+    footer{
+        height:auto;
+        padding:30px;
+        font-size:20px;
+    }
+
+    .side-menu{
+        display:none;
+    }
+}
+
+
+.align{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width:768px){
+    .align{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .align li{
+        margin:10px 0;
+    }
+}
+@media screen and (max-width:768px){
+
+.owner{
+    grid-template-columns:1fr;
+}
+
+}
+@media screen and (max-width:768px){
+
+.theory{
+    grid-template-columns:1fr;
+}
+
+}
+@media screen and (max-width:1024px){
+
+.theory{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+.footer{
+    background-color: #1b4f9b;
+    color: #fff;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-items:center;
+    
+}
+
+    
+
+
+
+.footers a{
+    color:white;
+    display: grid;
+    font-size: 25px;
+}
+
+
+.contact-item{
+    font-size:30px;
+}
+.quick-links{
+    font-size:35px;
+}
+.quick-links h2{
+    color:  #f4c430;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+.quick-links a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.quick-links a:hover{
+    color: #f4c430;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.footer-content h2{
+    color:  #f4c430;
+    padding-bottom: 20px;
+}
+.buttons a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    border-style: double;
+}
+
+.buttons a:hover{
+    background-color: #0b6b3a;
+    transform: scale(1.05);
+}
+.current{
+    text-decoration: none;
+    border-radius: 8px;
+}
+.theory{
+    background-image:url(images/Graduate.jpeg);
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+    
+    
+}
+.card{
+    height: fit-content;
+    background-color: none;
+}
+.card h2{
+    color:#1b4f9b;
+}
+.card h2:hover{
+    color:#326587;
+}
+
+.student-achievements{
+    font-size: 25px;
+    padding-top: 29px;
+}
+.student-achievements h2 a{
+    color:rgb(27, 161, 117);
+    
+}
+
+
+.Vallurupalli h2{
+    text-align: left;
+    font-size: 35px;
+}
+.location{
+    width:100px;
+    height:100px;
+}
+.footer{
+    background-size:auto;
+    background:#213b77;
+    min-height:500px;
+}
+.footer-content h2{
+    font-size: 45px;
+    color: #f4c430;
+}
+.location h2{
+    font-size: 45px;
+    color:#f4c430;
+}
+
+.finaaly {
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    min-height: 90px;
+    background-color: #326587;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:35px;
+    
+    
+}
+
+
+.icons a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding:15px 30px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    border-style: double;
+    position: relative;
+    top:15px;
+}
+.icons h2{
+    color: #f4c430;
+    font-size: 30px;
+}
+.icons a:hover{
+    color: #0b6b3a;
+}
+
+.made p{
+    font-size: 22px;
+}
+
+
+.srgecwebsite{
+    font-size: 35px;
+    color:#212477;
+}
+
+.Gallery{
+    background-image:url(images/Groupphoto.jpeg);
+    width:100%;
+    min-height:100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Gallery img{
+    
+    opacity: 0.5;   /* 0 = fully transparent, 1 = fully visible */
+}
+
+.Gallery p{
+    color:#1b4f9b;
+    font-size: 45px;
+    text-align:center;
+    text-overflow: ellipsis;
+}
+
+
+
+.form-container{
+    width:80%;
+    max-width:900px;
+    margin:50px auto;
+}
+
+.form-container h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.application-form{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.application-form input{
+    width:100%;
+    padding:15px;
+    font-size:20px;
+    border:3px solid #3f3e3e;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+}
+
+.row input{
+    width:50%;
+}
+
+button{
+    width:200px;
+    padding:15px;
+    margin:auto;
+    border:none;
+    background:#f5b400;
+    color:white;
+    font-size:25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background: #0b6b3a;
+}
+.silver-jubliee img{
+    border-radius: 8px;
+    border:3px solid black;
+    padding: 20px;
+    background-color: hsl(148, 20%, 27%);
+    height: 300px;
+    width: 100%;
+    transition: 0.3s;
+}
+.silver-jubliee{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+.silver-jubliee img:hover{
+    color:#f5b400;
+}
+.event-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.silver-jubilee-content p{
+    font-size: 25px;
+}
+
+  
+
+.headings1{
+    color:#213b77;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-style: italic;
+  
+   
+}
+.hello{
+    
+    background-color: pink;
+}
+.hello img{
+    top:20px;
+    width:300px;
+    background-color: pink;
+}
+
+.toffan{
+    background-color: pink;
+}
+.toffan ul{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(67, 47, 47);
+}
+.grids img{
+    height:max-content;
+    width:350px;
+    border: 15px solid black;
+    padding:5px;
+    background-color:#3f3e3e;
+}
+.grids{
+    background-image: url(images/MyGraduation.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.silver-jubilee-content p{
+    background-color: rgb(172, 159, 159);
+}
+.silver-jubilee-content h1{
+    background-color: #326587;
+    color:#fff;
+    text-align: center;
+}
+.silver-jubliee{
+    background-color: #6a94a4;
+}
+.event-links{
+    background-color: rgb(139, 157, 101);
+}
+.heading1{
+    background-color:  rgb(59, 93, 145);
+    color: white;
+    text-decoration: double;
+    font-style: italic;
+    font-size: 25px;
+}
+.Long{
+    background-color: #808080;
+}
+.srgecwebsite h3{
+    font-weight: 100;
+    background-color: #808080;
+    
+}
+.link2 a:hover{
+    color:yellow;
+   
+}
+.link2{
+    background-color: #808080;
+    color:black;
+}
+.skip-link{
+    color:#0b6b3a;
+    background-color: grey;
+    font-size: 35px;
+}
+.fest{
+    background-color: #6a94a4;
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    padding: 3px;
+    border: 2px solid black;
+    
+
+}
+.fest p{
+    background-color: #808080;
+}
+.fest h2{
+    color:black;
+    background-color: rgb(172, 149, 106);
+}
+.fest img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+
+}
+.alls img{
+    object-fit:cover;
+    width:100;
+    height:30vh;
+    
+}
+.alle img{
+    width: 400px;
+    object-fit: cover;
+    padding-left: 30px;
+}
+.allo img{
+    width: 400px;
+
+}
+.allw img{
+    width:700px;
+}
+.ally img{
+    width:700px;
+}
+.allp img{
+    width:500px;
+}
