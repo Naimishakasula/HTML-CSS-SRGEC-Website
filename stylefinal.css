@@ -931,10 +931,4 @@ button:hover{
 .allp img{
     width:500px;
 }
-.made{
-    text-align: center;
-    white-space: nowrap;   /* Keeps text on one line */
-    font-size: 20px;
-    margin: 0;
-    padding: 10px 0;
-}
+
